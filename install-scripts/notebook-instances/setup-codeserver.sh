@@ -7,7 +7,7 @@ set -eux
 ###############
 #  VARIABLES  #
 ###############
-CODE_SERVER_VERSION="4.22"
+CODE_SERVER_VERSION="4.90.3"
 CODE_SERVER_INSTALL_LOC="/home/ec2-user/SageMaker/.cs"
 XDG_DATA_HOME="/home/ec2-user/SageMaker/.xdg/data"
 XDG_CONFIG_HOME="/home/ec2-user/SageMaker/.xdg/config"
