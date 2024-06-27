@@ -7,13 +7,12 @@ set -eux
 ###############
 #  VARIABLES  #
 ###############
-
-CODE_SERVER_VERSION="4.16.1"
+CODE_SERVER_VERSION="4.22"
 CODE_SERVER_INSTALL_LOC="/home/ec2-user/SageMaker/.cs"
 XDG_DATA_HOME="/home/ec2-user/SageMaker/.xdg/data"
 XDG_CONFIG_HOME="/home/ec2-user/SageMaker/.xdg/config"
 CREATE_NEW_CONDA_ENV=1
-CONDA_ENV_LOCATION='/home/ec2-user/SageMaker/.cs/conda/envs/codeserver_py39'
+CONDA_ENV_LOCATION='/home/ec2-user/SageMaker/.cs/conda/envs/py311'
 USE_CUSTOM_EXTENSION_GALLERY=0
 EXTENSION_GALLERY_CONFIG='{{\"serviceUrl\":\"\",\"cacheUrl\":\"\",\"itemUrl\":\"\",\"controlUrl\":\"\",\"recommendationsUrl\":\"\"}}'
 
